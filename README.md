@@ -50,8 +50,12 @@ We are offering multiple plans to fit your budget and needs. We have Sample Plan
 
 ### 4) Create entities for the plans
 From this example, we have seen that there are two plans of choice given by the agent. And instead of creating two different sets of intents, we could just make an entity for it to know what `Postpaid Plan` our user is talking about.
-* On the entity tab, click `Create Entity`
+* On the `Entities` tab, click `Create Entity`
 * Set the Entity Name to `postpaid_plans`
 * Set the first property/parameter to `499` and set its synonyms
 * Set the second property/parameter to `999` and set its synonyms
 * Save the entity created
+* Verify if the entity was created by going back to the `Entities` tab
+![alt text](images/df4_1.png)
+
+
