@@ -14,19 +14,19 @@ Create an agent on the DialogFlow console and give it your desired name. `sample
 ![alt text](images/df1.png)
 
 ### 1.1) DialogFlow Console
-Short Introductory to the DialogFlow console:<br />
+Short Introductory to the DialogFlow console:
 ![alt text](images/df0.png)
-*1*: Intents Tab<br />
+*1*: `Intents Tab`<br />
   Where you would build, delete and modify your intents<br />
-*2*: Entities Tab<br />
+*2*: `Entities Tab`<br />
   Where you would build, delete and modify your entities<br />
-*3*: Fulfillment Tab<br />
+*3*: `Fulfillment Tab`<br />
   Where you would setup your fulfillment and webhooks<br />
-*4*: Integrations Tab<br />
+*4*: `Integrations Tab`<br />
   Where you would setup your agent's integration<br />
-*5*: Tab Indicator<br />
+*5*: `Tab Indicator`<br />
   Tells what tab you're currently at<br />
-*6*: Agent Tester<br />
+*6*: `Agent Tester`<br />
   Text Field are where you can test your agent (Intent invocations, etc.)
 
 
@@ -38,3 +38,12 @@ Hi, Welcome to Sample Telecom! How may I help?
 After changing the response, save it and use the `agent tester` to see the changes
 ![alt text](images/df2_1.png)
 
+### 3) Add a new intent for catering the plans
+* Create a new intent for when the user is Asking the Plans. In the example we named it: `plans`
+* Add the training phrases or the user utterances. Or what the user must say to trigger the intent
+* Add the agent's response when this trigger is intent. For the example, we used: 
+```
+We are offering multiple plans to fit your budget and needs. We have Sample Plan 499 and Sample Plan 999. Please let me know what plans you would like to know more.
+```
+* Save the agent
+![alt text](images/df3.png)
