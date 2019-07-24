@@ -43,7 +43,15 @@ After changing the response, save it and use the `agent tester` to see the chang
 * Add the training phrases or the user utterances. Or what the user must say to trigger the intent
 * Add the agent's response when this trigger is intent. For the example, we used: 
 ```
-We are offering multiple plans to fit your budget and needs. We have Sample Plan 499 and Sample Plan 999. Please let me know what plans you would like to know more.
+We are offering multiple plans to fit your budget and needs. We have Sample Plan 499 and Sample Plan 999. Please let me know what plan you would like to know more.
 ```
 * Save the agent
 ![alt text](images/df3.png)
+
+### 4) Create entities for the plans
+From this example, we have seen that there are two plans of choice given by the agent. And instead of creating two different sets of intents, we could just make an entity for it to know what `Postpaid Plan` our user is talking about.
+* On the entity tab, click `Create Entity`
+* Set the Entity Name to `postpaid_plans`
+* Set the first property/parameter to `499` and set its synonyms
+* Set the second property/parameter to `999` and set its synonyms
+* Save the entity created
