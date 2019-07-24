@@ -29,7 +29,7 @@ Short Introductory to the DialogFlow console:
 *6*: `Agent Tester`<br />
   Text Field are where you can test your agent (Intent invocations, etc.)
 
-![alt text](images/df1_1.png)
+<div style="text-align:center"><img src="images/df1_1.png" /></div>
 * The agent tester is also the diagnostic tool where we can check whether what intent was detected by our agent and other relevant information regarding the user query.
 
 ### 2) Change the response of the Default welcome Intent
@@ -86,4 +86,18 @@ You would want to have a separate response when a user said `yes` on the previou
    * Do the steps again for `No`
 * Check by hovering on the `specific_plan` intent again and clicking the drop down arrow
 ![alt text](images/df4_4.png)
+
+### 4.3) Edit the response on the yes (CONTEXT)
+* Select `specific_plan - yes` sub intent
+* Check for the Contexts, you will see `specific_plan-followup` on the input contexts
+* On the conversational design flow, this would be the last intent so we would en our conversation here. Toggle enable the `Set this intent as the end of conversation`
+* Add the response the agent will give back to the user:
+```
+Great! Here is your receipt for plan #.postpaid_plans : 072419. Please proceed to your nearest Sample Telecom store and present it for further processing. Thank you and have a nice day!
+```
+* `#specific_plan-followup` is the context containing all the entities and parameters from the previous conversation and `.postpaid_plans` is the entity that we used inside the said context.
+* Test your flow
+![alt text](images/df4_5.png)
+# For documentation and References:
+* https://cloud.google.com/dialogflow/docs/
 
