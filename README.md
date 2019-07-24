@@ -7,9 +7,15 @@
 ![alt text](images/image.png)
 
 ## Step - by - step building
-### 0) DialogFlow Console
-Short Introductory to the DialogFlow console:<br />
 
+
+### 1) Initialize the agent
+Create an agent on the DialogFlow console and give it your desired name. `sample_agent` was used for this example
+![alt text](images/df1.png)
+
+### 1.1) DialogFlow Console
+Short Introductory to the DialogFlow console:<br />
+![alt text](images/df0.png)
 *1*: Intents Tab<br />
   Where you would build, delete and modify your intents<br />
 *2*: Entities Tab<br />
@@ -22,11 +28,7 @@ Short Introductory to the DialogFlow console:<br />
   Tells what tab you're currently at<br />
 *6*: Agent Tester<br />
   Text Field are where you can test your agent (Intent invocations, etc.)
-![alt text](images/df0.png)
 
-### 1) Initialize the agent
-Create an agent on the DialogFlow console and give it your desired name. `sample_agent` was used for this example
-![alt text](images/df1.png)
 
 ### 2) Change the response of the Default welcome Intent
 There is a preloaded agent response provided by google under `Default Welcome Intent`, change it to the desired response when users greets the agent. In the example, we used:
