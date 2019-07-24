@@ -11,17 +11,17 @@
 Short Introductory to the DialogFlow console:<br />
 
 *1*: Intents Tab<br />
- - Where you would build, delete and modify your intents<br />
+  Where you would build, delete and modify your intents<br />
 *2*: Entities Tab<br />
- - Where you would build, delete and modify your entities<br />
+  Where you would build, delete and modify your entities<br />
 *3*: Fulfillment Tab<br />
- - Where you would setup your fulfillment and webhooks<br />
+  Where you would setup your fulfillment and webhooks<br />
 *4*: Integrations Tab<br />
- - Where you would setup your agent's integration<br />
+  Where you would setup your agent's integration<br />
 *5*: Tab Indicator<br />
- - Tells what tab you're currently at<br />
+  Tells what tab you're currently at<br />
 *6*: Agent Tester<br />
- - Text Field are where you can test your agent (Intent invocations, etc.)
+  Text Field are where you can test your agent (Intent invocations, etc.)
 ![alt text](images/df0.png)
 
 ### 1) Initialize the agent
