@@ -9,8 +9,10 @@
 ## Step - by - step building
 ### 0) DialogFlow Console
 Short Introductory to the DialogFlow console:
+
+
 *1*: Intents Tab
-   * Where you would build, delete and modify your intents
+- Where you would build, delete and modify your intents
 *2*: Entities Tab
    * Where you would build, delete and modify your entities
 *3*: Fulfillment Tab
